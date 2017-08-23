@@ -1,12 +1,10 @@
 ﻿using System;
 
-namespace AConsole
+class Program
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-        }
+        var s = Library1.GetMessage();
+        Console.WriteLine(s);
     }
 }

@@ -8,7 +8,8 @@ namespace AXUnit
         [Fact]
         public void Test1()
         {
-
+            var s = Library1.GetMessage();
+            Assert.Equal(s, "Hello there");
         }
     }
 }
