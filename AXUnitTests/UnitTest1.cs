@@ -9,7 +9,7 @@ namespace AXUnit
         public void Test1()
         {
             var s = Library1.GetMessage();
-            Assert.Equal(s, "Hello there");
+            Assert.Equal(s, "Hello there Boy");
         }
     }
 }
